@@ -1,17 +1,17 @@
-From 1d374956225222962d352e43f74b5e09f9bf3c5d Mon Sep 17 00:00:00 2001
+From 0fbe1387830359ab802683ab67cc57e14f3eb557 Mon Sep 17 00:00:00 2001
 From: clodeindustrie <clodeindustrie@gmail.com>
 Date: Fri, 13 Oct 2023 12:16:29 +1100
 Subject: [PATCH] Add ns-set-application-icon
 
 ---
- src/nsfns.m | 23 +++++++++++++++++++++++
- 1 file changed, 23 insertions(+)
+ src/nsfns.m | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
 
 diff --git a/src/nsfns.m b/src/nsfns.m
-index 038a3fa23ad..5024db5e1d2 100644
+index 038a3fa23ad..b38796f0592 100644
 --- a/src/nsfns.m
 +++ b/src/nsfns.m
-@@ -2141,6 +2141,28 @@ Frames are listed from topmost (first) to bottommost (last).  */)
+@@ -2141,7 +2141,30 @@ Frames are listed from topmost (first) to bottommost (last).  */)
    return Qnil;
  }
  
@@ -37,16 +37,11 @@ index 038a3fa23ad..5024db5e1d2 100644
 +  [NSApp setApplicationIconImage:img];
 +  return Qt;
 +}
++
++  defsubr (&Sns_set_application_icon);
  
  DEFUN ("x-display-list", Fx_display_list, Sx_display_list, 0, 0, 0,
         doc: /* SKIP: real doc in xfns.c.  */)
-@@ -4035,7 +4057,7 @@ - (Lisp_Object)lispString
-   defsubr (&Sx_create_frame);
-   defsubr (&Sx_open_connection);
-   defsubr (&Sx_close_connection);
-+  defsubr (&Sns_set_application_icon);
-   defsubr (&Sx_display_list);
- 
-   defsubr (&Sns_hide_others);
 --
 2.32.1 (Apple Git-133)
+
