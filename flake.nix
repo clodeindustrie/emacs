@@ -76,7 +76,7 @@
 
             patches = [
               ./patches/fix-window-role.patch
-              ./patches/add-ns-set-application-icon.patch
+              
             ];
 
             postPatch = o.postPatch + ''
