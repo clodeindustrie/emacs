@@ -69,14 +69,14 @@
 
         emacs = (prev.emacs.override { srcRepo = true; withNativeCompilation = true; withXwidgets = false; withGTK3 = true; }).overrideAttrs (
           o: rec {
-            version = "30.0.60";
+            version = "31.0.50";
             src = emacs-src;
 
             buildInputs = o.buildInputs ++ [ prev.darwin.apple_sdk.frameworks.WebKit ];
 
             patches = [
               ./patches/fix-window-role.patch
-              
+
             ];
 
             postPatch = o.postPatch + ''
