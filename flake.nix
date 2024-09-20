@@ -69,7 +69,7 @@
 
         emacs = (prev.emacs.override { srcRepo = true; withNativeCompilation = true; withXwidgets = false; withGTK3 = true; }).overrideAttrs (
           o: rec {
-            version = "30.0.50";
+            version = "30.0.60";
             src = emacs-src;
 
             buildInputs = o.buildInputs ++ [ prev.darwin.apple_sdk.frameworks.WebKit ];
