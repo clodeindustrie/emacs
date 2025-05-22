@@ -3,11 +3,11 @@
     "emacs-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1747765838,
-        "narHash": "sha256-3MNFP9Yu2HoOp60Txiv28Ug/TOUrhr9lRm61vXp35tI=",
+        "lastModified": 1747847886,
+        "narHash": "sha256-GgsPZxMPXPQDNxMprkKlmiOAQb9wHGBzaO3juSieZ+Q=",
         "owner": "emacs-mirror",
         "repo": "emacs",
-        "rev": "87fa5f565d70c514bd47b59bb0ef0cba8750e983",
+        "rev": "cb1b65f3923d5dcb88767f6736603ffbc4272557",
         "type": "github"
       },
       "original": {
@@ -34,11 +34,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1747728033,
-        "narHash": "sha256-NnXFQu7g4LnvPIPfJmBuZF7LFy/fey2g2+LCzjQhTUk=",
+        "lastModified": 1747852984,
+        "narHash": "sha256-q2PmaOxyR3zqOF54a3E1Cj1gh0sDu8APX9b+OkX4J5s=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2f9173bde1d3fbf1ad26ff6d52f952f9e9da52ea",
+        "rev": "8c441601c43232976179eac52dde704c8bdf81ed",
         "type": "github"
       },
       "original": {
