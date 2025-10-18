@@ -3,11 +3,11 @@
     "emacs-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1760660941,
-        "narHash": "sha256-zfeiaxGJEDHNameAuLwca6pEncse1I2eAJgqUVBieNw=",
+        "lastModified": 1760730798,
+        "narHash": "sha256-qG4eppfOdsBTIuaR06QSWcC/tVF/SZ+B1ZFMNwSRWy0=",
         "owner": "emacs-mirror",
         "repo": "emacs",
-        "rev": "90ec5ef01bb227ec69f4d41f9554ee0cde8421fb",
+        "rev": "ce7f2b93bb4dc17ae083ca33327c618a2038f420",
         "type": "github"
       },
       "original": {
